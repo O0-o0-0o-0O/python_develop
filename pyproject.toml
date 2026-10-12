@@ -1,0 +1,7 @@
+[project]
+name = "python-develop"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx[brotli,cli,http2,socks,zstd]>=0.28.1",
+]
